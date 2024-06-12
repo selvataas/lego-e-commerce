@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Topfiyt3\Desktop\Django-E-Commerce\Django-E-Commerce\shop_app\.venv
+set VIRTUAL_ENV=C:\Users\Topfiyt3\Desktop\Django-LEGO-E-Commerce\Django-LEGO-E-Commerce\shop_app\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 
@@ -25,7 +25,7 @@ if defined _OLD_VIRTUAL_PATH set PATH=%_OLD_VIRTUAL_PATH%
 if not defined _OLD_VIRTUAL_PATH set _OLD_VIRTUAL_PATH=%PATH%
 
 set PATH=%VIRTUAL_ENV%\Scripts;%PATH%
-set VIRTUAL_ENV_PROMPT=(.venv) 
+set VIRTUAL_ENV_PROMPT=(.venv)
 
 :END
 if defined _OLD_CODEPAGE (

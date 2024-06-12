@@ -1,0 +1,4 @@
+# Virtual environment directory
+.venv/
+
+# Large binary files

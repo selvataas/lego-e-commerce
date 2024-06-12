@@ -10,11 +10,11 @@
             <a href="{% url 'products_by_category' category.slug %}" class="list-group-item list-group-item-action">{{category.name}}</a>
             {% endfor %}
           </div>
-          
+
         </div>
         <div class="col-10">
-          
-        
+
+
           <div class="row">
             {% for product in products %}
             <div class="card  mt-3" style="width: 18rem;">
@@ -28,13 +28,13 @@
             </div>
             {% endfor %}
           </div>
-          
+
 
         </div>
-        
+
       </div>
-      
-      
+
+
 </body>
 </html>
 {% endblock %}
